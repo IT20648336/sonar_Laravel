@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+    /*43D717*/
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    color: #fff !important;
+    background-color: #007bff !important;
+    border: 1px solid #007bff !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: #fff !important;
+    background-color: #0069d9 !important;
+    border: 1px solid #0069d9 !important;
+}
+
+.custom-header {
+    background-color: #E1ECDD;
+}
+
+.black-link {
+    color: black;
+}
+
+#userTable td {
+    font-size: 13px; 
+    font-weight: bold; 
+    background-color: white;
+    color:#3C4740  ;
+    padding: 3px;
+}
+
+#userTable tr {
+    line-height: normal;
+}
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.approved {
+    background-color: green;
+    color: green;
+}
+
+.status-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.approved-dot {
+    background-color: green;
+}
+
+.rejected-dot {
+    background-color: red;
+}
+
+.status-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.status-text {
+    font-weight: bold;
+}
+
+.approved-dot {
+    background-color: green;
+}
+
+.rejected-dot {
+    background-color: red;
+}
+
+.pending-dot {
+    background-color: yellow;
+}
+
+.status-approved {
+    color: green;
+}
+
+.status-rejected {
+    color: red;
+}
+
+.status-pending {
+    color: yellow;
+}
+
+.btn-small {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+}
+
+.add-project-btn {
+    position: absolute;
+    top: 60px;
+    right: 200px;
+    background-color: red;
+    color: white;
+    padding: 3px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.add-project-btn:hover {
+    background-color: darkred;
+}
+
+.add-inquiry-btn {
+    position: absolute;
+    top: 60px;
+    right: 400px;
+    background-color: #1BBB55 ;
+    color: white;
+    padding: 3px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.add-project-btn:hover {
+    background-color: darkred;
+}
+
+.add-inquiry-list-btn {
+    position: absolute;
+    top: 60px;
+    right: 600px;
+    background-color: blue ;
+    color: white;
+    padding: 3px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.add-inquiry-list-btn:hover {
+    background-color: burlywood;
+}
